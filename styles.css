@@ -620,22 +620,22 @@ textarea {
 }
 
 #outer {
-    padding-top: 100px;
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
   width: 100%;
-  /* Firefox */
-  display: -moz-box;
-  -moz-box-pack: center;
-  -moz-box-align: center;
-  /* Safari and Chrome */
-  display: -webkit-box;
-  -webkit-box-pack: center;
-  -webkit-box-align: center;
-  /* W3C */
-  display: box;
-  box-pack: center;
-  box-align: center;
+}
+
+#middle {
+  display: table-cell;
+  vertical-align: middle;
 }
 
 #inner {
+  margin-left: auto;
+  margin-right: auto;
   width: 1024px;
+  /*whatever width you want*/
 }
