@@ -9,6 +9,10 @@
  */
 
 html {
+    background-image: url('swan.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -615,6 +619,8 @@ textarea {
 }
 
 #outer {
+    padding-top: 100px;
+  min-height: 1000px;
   width: 100%;
   /* Firefox */
   display: -moz-box;
@@ -631,5 +637,5 @@ textarea {
 }
 
 #inner {
-  width: 50%;
+  width: 1024px;
 }
