@@ -9,6 +9,7 @@
  */
 
 html {
+  min-height: 1000px;
     background-image: url('swan.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -620,7 +621,6 @@ textarea {
 
 #outer {
     padding-top: 100px;
-  min-height: 1000px;
   width: 100%;
   /* Firefox */
   display: -moz-box;
